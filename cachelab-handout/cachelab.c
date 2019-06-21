@@ -20,7 +20,7 @@ void printSummary(int hits, int misses, int evictions)
     FILE* output_fp = fopen(".csim_results", "w");
     assert(output_fp);
     fprintf(output_fp, "%d %d %d\n", hits, misses, evictions);
-    fclose(output_fp);
+    fclose(output_fp);  
 }
 
 /* 
